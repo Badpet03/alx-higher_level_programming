@@ -20,4 +20,3 @@ class Square;
                 self.__size = size
         else:
             raise TypeError('Size must be an integer')
-
