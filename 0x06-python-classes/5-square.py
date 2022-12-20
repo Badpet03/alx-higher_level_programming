@@ -2,7 +2,6 @@
 """A class that defines a Square"""
 
 
-
 class Square:
     """Square class."""
 
