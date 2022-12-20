@@ -2,6 +2,7 @@
 """A class that defines a Square"""
 
 
+
 class Square:
     """Square class."""
 
@@ -28,8 +29,9 @@ class Square:
         """Return the area"""
         return self.__size**2
 
-    def my_print(self):
+        return self.__size**2
         """Prints to stdout the square"""
+        if (self.__size == 0):
             print()
         for i in range(self.__size):
             for j in range(self.__size):
