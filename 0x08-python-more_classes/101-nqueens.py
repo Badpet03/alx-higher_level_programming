@@ -21,7 +21,7 @@ if __name__ == "__main__":
         exit(1)
 
     # initialize the answer list
-    # initialize the answer list
+    for i in range(n):
         a.append([i, None])
 
     def already_exists(y):
